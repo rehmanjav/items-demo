@@ -1,0 +1,25 @@
+{
+  "name": "items-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Item database using sqlite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehmanjav/items-demo.git"
+  },
+  "author": "Rehman Javaid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehmanjav/items-demo/issues"
+  },
+  "homepage": "https://github.com/rehmanjav/items-demo#readme",
+  "dependencies": {
+    "better-sqlite3": "^9.0.0",
+    "csv": "^6.3.5"
+  }
+}
